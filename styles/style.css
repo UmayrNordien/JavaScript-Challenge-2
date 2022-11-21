@@ -1,0 +1,41 @@
+*,
+*::after,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* BUTTONS */
+/* CHARACTER BUTTON */
+.character-btn{
+   background-color: rgb(253, 206, 214); 
+   border: 2px dotted  rgb(151, 140, 223);
+   margin:5px;
+   padding:2px;
+
+}
+
+/* SEARCH BUTTON */
+.search-btn{
+    background-color: rgb(253, 206, 214); 
+    border: 2px dotted rgb(151, 140, 223);
+    margin:5px;
+    padding:2px;
+}
+
+/* BUTTON HOVER */
+
+button:hover{
+    background-color: rgb(151, 140, 223); 
+    border: 2px dotted rgb(253, 206, 214);
+    color:rgb(255, 255, 255);
+    transform:scale(1.1);
+    
+}
+
+/* INPUT */
+input:focus{
+    background-color:rgb(151, 140, 223);
+    color:rgb(255, 255, 255);
+  }

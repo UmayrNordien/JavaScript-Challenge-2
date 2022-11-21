@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>JS Challenge 2</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <form action="">
+                    <!--SENTENCE-->
+                    <div>
+                        <!--The form property returns a reference to the form containing the label.
+                            This property returns a form object on success.-->
+                        <!--use label???(it must be associated with a form control)-->
+                        <label>Sentence:</label>  
+                        <input type="text" id="typeSentence"  placeholder="">    
+                    </div>
+                    <!--WORD-->
+                    <div>
+                        <label>Word:</label>
+                        <input type="text" id="typeWord" placeholder="">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <!--NUMBER OF CHARACTERS-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <p >Number of characters: <span class="textChar">...</span></p>
+                <p>Value was found at position: <span class="thePosition">...</span></p>
+            </div>
+        </div>
+        <!--CHARACTER AND SEARCH BUTTON-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <button class="character-btn" id="btnCharacter">Number of Characters</button>
+                <button class="search-btn" id="btnSearch">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/code.js"></script>
+</body>
+</html>
